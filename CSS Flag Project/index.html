@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    .flag{
+      margin: 0;
+      height: 450px;
+      width: 600px;
+      border: 2px solid black;
+      position: relative;
+    }
+    .orange{
+      height: 150px;
+      background: orange;
+    }
+    .white{
+      height: 150px;
+      width: 100%;
+    }
+    .circle{
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      position: relative;
+      border: 2px solid blue;
+      left: 225px;
+    }
+    .green{
+      height: 150px;
+      background: green;
+    }
+    
+    ul{
+      position: absolute;
+      left: 74px;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    ul li:nth-child(1){
+      height: 150px;
+      width: 3px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+    }
+    ul li:nth-child(2){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(15deg);
+    }
+    ul li:nth-child(3){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(30deg);
+    }
+    ul li:nth-child(4){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(45deg);
+    }
+    ul li:nth-child(5){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(60deg);
+    }
+    ul li:nth-child(6){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(75deg);
+    }
+    ul li:nth-child(7){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(90deg);
+    }
+    ul li:nth-child(8){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(-15deg);
+    }
+    ul li:nth-child(9){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(-30deg);
+    }
+    ul li:nth-child(10){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(-45deg);
+    }
+    ul li:nth-child(11){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(-60deg);
+    }
+    ul li:nth-child(12){
+      height: 150px;
+      width: 2px;
+      padding: 0;
+      margin: 0;
+      background: blue;
+    /*   border: 2px solid red; */
+      position: absolute;
+      transform: rotate(-75deg);
+    }
+
+    .center{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="center">
+    <h1>The Indian Flag</h1>
+    <div class="flag">
+      <div class="color orange">
+      </div>
+      <div class="color white">
+        <div class="circle">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+      </div>
+      <div class="color green">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
