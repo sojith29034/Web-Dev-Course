@@ -8,28 +8,57 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto&display=swap');
+
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+        .title {
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .sub-title {
+            font-family: "EB Garamond", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .primary-text{
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .secondary-text{
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+              "wdth" 100;
+        }
     </style>
 </head>
 <body>
     <div class="p-2 bg-body-tertiary">
-        <h1 class="text-center">The Complete 2024 Web Development Bootcamp</h1>
+        <h1 class="text-center title">The Complete 2024 Web Development Bootcamp</h1>
     </div>
 
-    <div class="container my-5">
+    <div class="container my-5" id="html">
+        <h2 class="my-3 sub-title">HTML, CSS, JavaScript</h2>
         <div class="row d-flex justify-content-between">
             <div class="col-3">
                 <div class="card">
                     <img src="./CSS Flag Project/mySolution.png" class="card-img-top object-fit-cover" height="300px" width="300px" alt="Indian Flag">
                     <div class="card-body">
-                        <h5 class="card-title">Indian Flag</h5>
-                        <p class="card-text">Made using HTML, CSS</p>
-                        <a href="./CSS Flag Project/index.html" class="btn btn-primary">View Preview</a>
-                        <a href="https://github.com/sojith29034/Web-Dev-Course/tree/main/CSS%20Flag%20Project" class="btn btn-outline-primary">Github</a>
+                        <h5 class="card-title primary-text">Indian Flag</h5>
+                        <p class="card-text secondary-text">Made using HTML, CSS</p>
+                        <a href="./CSS Flag Project/index.html" target="_blank" class="btn btn-primary primary-text">View Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/sojith29034/Web-Dev-Course/tree/main/CSS%20Flag%20Project" class="btn btn-outline-primary primary-text"><i class="fa-brands fa-github"></i> Github</a>
                     </div>
                 </div>
             </div>
@@ -37,10 +66,10 @@
                 <div class="card">
                     <img src="./Chess Board/mySolution.png" class="card-img-top object-fit-cover" height="300px" width="300px" alt="Chess Board">
                     <div class="card-body">
-                        <h5 class="card-title">Chess Board</h5>
-                        <p class="card-text">Made using HTML, CSS</p>
-                        <a href="./Chess Board/index.html" class="btn btn-primary">View Preview</a>
-                        <a href="https://github.com/sojith29034/Web-Dev-Course/tree/main/Chess%20Board" class="btn btn-outline-primary">Github</a>
+                        <h5 class="card-title primary-text">Chess Board</h5>
+                        <p class="card-text secondary-text">Made using HTML, CSS</p>
+                        <a href="./Chess Board/index.html" target="_blank" class="btn btn-primary primary-text">View Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/sojith29034/Web-Dev-Course/tree/main/Chess%20Board" class="btn btn-outline-primary primary-text"><i class="fa-brands fa-github"></i> Github</a>
                     </div>
                 </div>
             </div>
@@ -48,10 +77,10 @@
                 <div class="card">
                     <img src="./Emoji/mySolution.png" class="card-img-top object-fit-cover" height="300px" width="300px" alt="Smiling Emoji">
                     <div class="card-body">
-                        <h5 class="card-title">Emoji(with Animation)</h5>
-                        <p class="card-text">Made using HTML, CSS</p>
-                        <a href="./Emoji/index.html" class="btn btn-primary">View Preview</a>
-                        <a href="https://github.com/sojith29034/Web-Dev-Course/tree/main/Emoji" class="btn btn-outline-primary">Github</a>
+                        <h5 class="card-title primary-text">Emoji(with Animation)</h5>
+                        <p class="card-text secondary-text">Made using HTML, CSS</p>
+                        <a href="./Emoji/index.html" target="_blank" class="btn btn-primary primary-text">View Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/sojith29034/Web-Dev-Course/tree/main/Emoji" class="btn btn-outline-primary primary-text"><i class="fa-brands fa-github"></i> Github</a>
                     </div>
                 </div>
             </div>
@@ -59,6 +88,7 @@
     </div>
 
 
+    <script src="https://kit.fontawesome.com/0a95f6b081.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
